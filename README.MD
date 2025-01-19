@@ -119,7 +119,7 @@ medical_agents/
 MIT License
 
 ## 联系方式
-[miouluo](mailto:miouluo24@gmail.com)
+[miouluo24@gmail.com](mailto:miouluo24@gmail.com)
 
 ## 感谢
 感谢Ollama平台提供的模型支持
