@@ -104,9 +104,9 @@ medical_agents/
 * 进行数据脱敏
 * 输出质量验证(5分制)
 
-![img](./image/1.png)
-![img](./image/2.png)
-![img](./image/3.png)
+![img](./image/1.jpg)
+![img](./image/2.jpg)
+![img](./image/3.jpg)
 
 ## 改进建议
 * 可以使用高质量数据集进行微调，提高模型性能
@@ -119,7 +119,7 @@ medical_agents/
 MIT License
 
 ## 联系方式
-[miou](mailto:miouluo24@gmail.com)
+[miouluo](mailto:miouluo24@gmail.com)
 
 ## 感谢
 感谢Ollama平台提供的模型支持
