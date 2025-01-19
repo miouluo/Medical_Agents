@@ -104,9 +104,9 @@ medical_agents/
 * 进行数据脱敏
 * 输出质量验证(5分制)
 
-![img](./img/1.png)
-![img](./img/2.png)
-![img](./img/3.png)
+![img](./image/1.png)
+![img](./image/2.png)
+![img](./image/3.png)
 
 ## 改进建议
 * 可以使用高质量数据集进行微调，提高模型性能
