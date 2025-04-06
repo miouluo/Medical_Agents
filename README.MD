@@ -121,9 +121,4 @@ MIT License
 ## 联系方式
 [miouluo24@gmail.com](mailto:miouluo24@gmail.com)
 
-## 感谢
-感谢Ollama平台提供的模型支持
-
-感谢Streamlit平台提供的界面支持
-
 
