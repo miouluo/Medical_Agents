@@ -33,7 +33,7 @@ def main():
             
         with st.spinner("正在处理中..."):
             try:
-                # 获取AgentManager实例
+                # 获取实例
                 agent_manager = get_agent_manager()
                 
                 # 异步处理
