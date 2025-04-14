@@ -8,7 +8,6 @@ logger = logging.getLogger(__name__)
 
 class OllamaClient:
     def __init__(self):
-        # 确保base_url是完整的URL
         self.base_url = OLLAMA_CONFIG['host']
         if not self.base_url.startswith('http'):
             self.base_url = f"http://localhost{self.base_url}" if self.base_url.startswith(':') else f"http://{self.base_url}"
