@@ -14,7 +14,7 @@ def main():
     st.title("医疗AI助手")
     st.write("这是一个基于AI的医疗文本处理系统，可以进行文本总结、分析和验证。")
     
-    # 侧边栏配置
+    # 侧边栏
     st.sidebar.title("设置")
     st.sidebar.markdown("---")
     st.sidebar.write("当前版本: v1.0.0")
@@ -40,18 +40,15 @@ def main():
                 result = asyncio.run(agent_manager.process_medical_text(text_input))
                 
                 if result["status"] == "success":
-                    # 显示摘要
                     st.subheader("文本摘要")
                     st.write(result["summary"]["summary"])
                     
-                    # 显示验证结果
                     st.subheader("验证结果")
                     validation = result["validation"]
                     st.write(f"验证分数: {validation['score']}/5")
                     st.write(f"状态: {validation['status']}")
                     st.write(f"说明: {validation['explanation']}")
                     
-                    # 显示分析结果
                     st.subheader("分析结果")
                     st.write(result["analysis"]["analysis"])
                     
