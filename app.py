@@ -36,7 +36,7 @@ def main():
                 # 获取AgentManager实例
                 agent_manager = get_agent_manager()
                 
-                # 运行异步处理
+                # 异步处理
                 result = asyncio.run(agent_manager.process_medical_text(text_input))
                 
                 if result["status"] == "success":
